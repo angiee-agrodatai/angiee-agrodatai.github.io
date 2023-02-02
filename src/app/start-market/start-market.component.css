@@ -1,0 +1,716 @@
+.list {
+    overflow-y: scroll;
+}
+
+
+
+.news {
+    overflow-x: scroll;
+}
+
+h1 {
+    padding-left: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #00926A;
+}
+
+.profile {
+    position: relative;
+    bottom: 20px;
+    left: 10px;
+}
+
+
+
+@media only screen and(min-width: 400px) {
+
+    /* width: 900px; 
+       background-size: 900px; */
+
+    .header {
+        width: 400px;
+
+
+    }
+
+    .profile {
+        width: 100%;
+
+
+    }
+
+    .image {
+        width: 100px;
+        height: 100px;
+
+        position: relative;
+        left: -80px
+    }
+
+    .element1 {
+        width: 50px;
+    }
+
+    .element {
+        width: 50px;
+        height: 50px;
+    }
+
+    .menu {
+        width: 50px;
+        height: 50px;
+    }
+
+    .content {
+        width: 400px;
+    }
+
+    .all {
+        width: 400px;
+    }
+
+    .item {
+        display: flex;
+
+        align-items: center;
+        flex-direction: row;
+        width: 100px;
+        height: 100px;
+        padding-left: 20px;
+
+    }
+
+    .items {
+        width: 400px;
+        display: flex;
+        align-items: center;
+    }
+
+    .products {
+        width: 400px;
+        display: flex;
+        flex-direction: row;
+        padding: 0px;
+    }
+
+    #market {
+        text-align: left;
+        width: 100%;
+        margin: auto;
+    }
+
+    #list {
+        width: 20%;
+        /* Este será el ancho que tendrá tu columna */
+        background-color: #CCCCCC;
+        /* Aquí pon el color del fondo que quieras para este lateral */
+        float: left;
+        /* Aquí determinas de lado quieres quede esta "columna" */
+    }
+
+    #main {
+        width: 75%;
+
+        background-color: #FFFFFF;
+        border: #000000 1px solid;
+        /* ponemos un donde para que se vea bonito */
+    }
+
+    .service {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 25px;
+        width: 100px;
+
+    }
+
+    .services {
+        display: flex;
+        flex-direction: row;
+        padding: 25px;
+        width: 80%;
+
+    }
+
+    .notification {
+        width: 100px;
+        height: 50px;
+    }
+
+}
+
+
+
+@media only screen and(min-width: 550px) {
+
+    /* width: 900px; 
+       background-size: 900px; */
+
+    .header {
+        width: 550px;
+
+
+    }
+
+    .profile {
+        width: 100%;
+        position: relative;
+        bottom: 10px;
+    }
+
+    .image {
+        width: 100px;
+        height: 100px;
+        position: relative;
+        left: -80px
+    }
+
+    .element1 {
+        width: 50px;
+    }
+
+    .element {
+        width: 50px;
+        height: 50px;
+    }
+
+    .menu {
+        width: 50px;
+        height: 50px;
+    }
+
+    .content {
+        width: 550px;
+    }
+
+    .all {
+        width: 550px;
+    }
+
+    .item {
+        display: flex;
+
+        align-items: center;
+        flex-direction: row;
+        width: 100px;
+        height: 100px;
+        padding-left: 20px;
+
+    }
+
+    .items {
+        width: 550px;
+        display: flex;
+        align-items: center;
+    }
+
+    .products {
+        width: 550px;
+        display: flex;
+        flex-direction: row;
+        padding: 0px;
+    }
+
+    #market {
+        text-align: left;
+        width: 100%;
+        margin: auto;
+    }
+
+    #list {
+        width: 20%;
+        /* Este será el ancho que tendrá tu columna */
+        background-color: #CCCCCC;
+        /* Aquí pon el color del fondo que quieras para este lateral */
+        float: left;
+        /* Aquí determinas de lado quieres quede esta "columna" */
+    }
+
+    #main {
+        width: 75%;
+
+        background-color: #FFFFFF;
+        border: #000000 1px solid;
+        /* ponemos un donde para que se vea bonito */
+    }
+
+    .service {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 25px;
+        width: 100px;
+
+    }
+
+    .services {
+        display: flex;
+        flex-direction: row;
+        padding: 25px;
+        width: 80%;
+
+    }
+
+    .notification {
+        width: 100px;
+        height: 50px;
+    }
+
+}
+
+@media only screen and(min-width: 750px) {
+
+    /* width: 900px; 
+       background-size: 900px; */
+
+    .header {
+        width: 750px;
+
+    }
+
+    .profile {
+        width: 100%;
+
+
+    }
+
+    .image {
+        width: 100px;
+        height: 100px;
+
+
+    }
+
+    .element1 {
+        width: 50px;
+    }
+
+    .element {
+        width: 50px;
+        height: 50px;
+    }
+
+    .menu {
+        width: 50px;
+        height: 50px;
+    }
+
+    .content {
+        width: 750px;
+    }
+
+    .all {
+        width: 750px;
+    }
+
+    .item {
+        display: flex;
+
+        align-items: center;
+        flex-direction: row;
+        width: 100px;
+        height: 100px;
+        padding-left: 20px;
+
+    }
+
+    .items {
+        width: 750px;
+        display: flex;
+        align-items: center;
+    }
+
+    .products {
+        width: 750px;
+        display: flex;
+        flex-direction: row;
+        padding: 0px;
+    }
+
+    #market {
+        text-align: left;
+        width: 100%;
+        margin: auto;
+    }
+
+    #list {
+        width: 20%;
+        /* Este será el ancho que tendrá tu columna */
+        background-color: #CCCCCC;
+        /* Aquí pon el color del fondo que quieras para este lateral */
+        float: left;
+        /* Aquí determinas de lado quieres quede esta "columna" */
+    }
+
+
+
+    .service {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 25px;
+        width: 80%;
+        height: 80%;
+
+    }
+
+    .services {
+        display: flex;
+        flex-direction: row;
+        padding: 25px;
+        width: 100px;
+        height: 100px;
+
+    }
+
+    .notification {
+        width: 100px;
+        height: 50px;
+    }
+
+}
+
+@media only screen and(min-width: 900px) {
+
+    /* width: 900px; 
+       background-size: 900px; */
+
+    .header {
+        width: 900px;
+        display: grid;
+
+
+    }
+
+    .profile {
+        width: 90px;
+        grid-area: 1 / 1 / 2 / 2;
+
+    }
+
+    .image {
+        width: 100px;
+        height: 100px;
+        grid-area: 1 / 2 / 2 / 3;
+
+    }
+
+    .element1 {
+        width: 50px;
+    }
+
+    .element {
+        width: 50px;
+        height: 50px;
+    }
+
+    .menu {
+        width: 50px;
+        height: 50px;
+    }
+
+    .content {
+        width: 900px;
+    }
+
+    .all {
+        width: 900px;
+    }
+
+    .item {
+        display: flex;
+
+        align-items: center;
+        flex-direction: row;
+        width: 100px;
+        height: 100px;
+        padding-left: 20px;
+
+    }
+
+    .items {
+        width: 900px;
+        display: flex;
+        align-items: center;
+    }
+
+    .products {
+        width: 900px;
+        display: flex;
+        flex-direction: row;
+        padding: 0px;
+    }
+
+    #market {
+        text-align: left;
+        width: 100%;
+        margin: auto;
+    }
+
+    #list {
+        width: 20%;
+        /* Este será el ancho que tendrá tu columna */
+        background-color: #CCCCCC;
+        /* Aquí pon el color del fondo que quieras para este lateral */
+        float: left;
+        /* Aquí determinas de lado quieres quede esta "columna" */
+    }
+
+
+
+    .service {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 25px;
+        width: 80%;
+        height: 80%;
+
+    }
+
+    .services {
+        display: flex;
+        flex-direction: row;
+        padding: 25px;
+        width: 100px;
+        height: 100px;
+
+    }
+
+    .notification {
+        width: 100px;
+        height: 50px;
+    }
+
+}
+
+@media only screen and(min-width: 1000px) {
+
+    /* width: 900px; 
+       background-size: 900px; */
+
+    .header {
+        width: 1000px;
+
+
+
+    }
+
+    .profile {
+        width: 110px;
+        grid-area: 1 / 1 / 2 / 2;
+
+    }
+
+    .image {
+        width: 100px;
+        height: 100px;
+        grid-area: 1 / 2 / 2 / 3;
+
+    }
+
+    .element1 {
+        width: 50px;
+    }
+
+    .element {
+        width: 50px;
+        height: 50px;
+    }
+
+    .menu {
+        width: 50px;
+        height: 50px;
+    }
+
+    .content {
+        width: 1000px;
+    }
+
+    .all {
+        width: 1000px;
+    }
+
+    .item {
+        display: flex;
+
+        align-items: center;
+        flex-direction: row;
+        width: 100px;
+        height: 100px;
+        padding-left: 20px;
+
+    }
+
+    .items {
+        width: 1000px;
+        display: flex;
+        align-items: center;
+    }
+
+    .products {
+        width: 1000px;
+        display: flex;
+        flex-direction: row;
+        padding: 0px;
+    }
+
+    #market {
+        text-align: left;
+        width: 100%;
+        margin: auto;
+    }
+
+    #list {
+        width: 20%;
+        /* Este será el ancho que tendrá tu columna */
+        background-color: #CCCCCC;
+        /* Aquí pon el color del fondo que quieras para este lateral */
+        float: left;
+        /* Aquí determinas de lado quieres quede esta "columna" */
+    }
+
+
+
+    .service {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 25px;
+        width: 80%;
+        height: 80%;
+
+    }
+
+    .services {
+        display: flex;
+        flex-direction: row;
+        padding: 25px;
+        width: 100px;
+        height: 100px;
+
+    }
+
+    .notification {
+        width: 100px;
+        height: 50px;
+    }
+
+}
+
+@media only screen and(min-width: 1200px) {
+
+    /* width: 900px; 
+       background-size: 900px; */
+
+    .header {
+        width: 1200px;
+
+
+
+    }
+
+    .profile {
+        width: 150px;
+        grid-area: 1 / 1 / 2 / 2;
+
+    }
+
+    .image {
+        width: 100px;
+        height: 100px;
+        grid-area: 1 / 2 / 2 / 3;
+
+    }
+
+    .element1 {
+        width: 50px;
+    }
+
+    .element {
+        width: 50px;
+        height: 50px;
+    }
+
+    .menu {
+        width: 50px;
+        height: 50px;
+    }
+
+    .content {
+        width: 1200px;
+    }
+
+    .all {
+        width: 1200px;
+    }
+
+    .item {
+        display: flex;
+
+        align-items: center;
+        flex-direction: row;
+        width: 100px;
+        height: 100px;
+        padding-left: 20px;
+
+    }
+
+    .items {
+        width: 1200px;
+        display: flex;
+        align-items: center;
+    }
+
+    .products {
+        width: 1200px;
+        display: flex;
+        flex-direction: row;
+        padding: 0px;
+    }
+
+    #market {
+        text-align: left;
+        width: 100%;
+        margin: auto;
+    }
+
+    #list {
+        width: 20%;
+        /* Este será el ancho que tendrá tu columna */
+        background-color: #CCCCCC;
+        /* Aquí pon el color del fondo que quieras para este lateral */
+        float: left;
+        /* Aquí determinas de lado quieres quede esta "columna" */
+    }
+
+
+
+    .service {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 25px;
+        width: 80%;
+        height: 80%;
+
+    }
+
+    .services {
+        display: flex;
+        flex-direction: row;
+        padding: 25px;
+        width: 100px;
+        height: 100px;
+
+    }
+
+    .notification {
+        width: 100px;
+        height: 50px;
+    }
+
+}

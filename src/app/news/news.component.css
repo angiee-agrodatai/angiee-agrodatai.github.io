@@ -1,0 +1,204 @@
+img {
+  position: relative;
+  left: -880px;
+  top: -35px;
+  border-radius: 15px;
+
+}
+
+.news {
+
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+
+.text {
+  height: '280px';
+  width: '370px';
+  background-color: '#E6DFE9';
+  border: 1px solid #C0BEC1;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.all {
+  padding: 0%;
+  margin: 0%;
+
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+
+@media (min-width: 400px) {
+
+  /* width: 900px; 
+   background-size: 900px; */
+  .all {
+    width: 400px;
+    z-index: 1;
+  }
+
+  .news {
+    width: 300px;
+    height: 150px;
+  }
+
+  .item {
+    width: 300px;
+  }
+
+  img {
+    position: relative;
+    left: 10px;
+    top: -160px;
+    border-radius: 15px;
+    z-index: 2;
+    width: 130px;
+    height: 130px;
+
+  }
+
+}
+
+@media only screen and (min-width: 550px) {
+  .all {
+    width: 550px;
+    z-index: 1;
+  }
+
+  .news {
+    width: 400px;
+    height: 200px;
+  }
+
+  .item {
+    width: 400px;
+  }
+
+  img {
+    position: relative;
+    left: 10px;
+    top: -170px;
+    border-radius: 15px;
+    z-index: 2;
+    width: 180px;
+
+  }
+}
+
+@media (min-width: 750px) {
+  .all {
+    width: 750px;
+    z-index: 1;
+  }
+
+  .news {
+    width: 750px;
+    height: 350px;
+  }
+
+  .item {
+    width: 500px;
+  }
+
+  img {
+    position: relative;
+    left: 10px;
+    top: -330px;
+    border-radius: 15px;
+    z-index: 2;
+    width: 250px;
+    height: 250px;
+
+  }
+}
+
+@media (min-width: 900px) {
+  .all {
+    width: 950px;
+    z-index: 1;
+  }
+
+  .news {
+    width: 900px;
+    height: 450px;
+  }
+
+  .item {
+    width: 600px;
+  }
+
+  img {
+    position: relative;
+    left: 10px;
+    top: -400px;
+    border-radius: 15px;
+    z-index: 2;
+    width: 300px;
+    height: 300px;
+
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .all {
+    width: 1000px;
+    z-index: 1;
+  }
+
+  .news {
+    width: 1000px;
+    height: 500px;
+  }
+
+  .item {
+    width: 600px;
+  }
+
+  img {
+    position: relative;
+    left: 10px;
+    top: -450px;
+    border-radius: 15px;
+    z-index: 2;
+    width: 400px;
+    height: 400px;
+
+  }
+
+}
+
+@media only screen and (min-width: 1200px) {
+  .all {
+    width: 1200px;
+    z-index: 1;
+  }
+
+  .news {
+    width: 1200px;
+    height: 500px;
+  }
+
+  .item {
+    width: 700px;
+  }
+
+  img {
+    position: relative;
+    left: 10px;
+    top: -450px;
+    border-radius: 15px;
+    z-index: 2;
+    width: 400px;
+
+  }
+
+}
