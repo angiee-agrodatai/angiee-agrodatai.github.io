@@ -1,12 +1,22 @@
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-<div class="all" style="background: #572F75">
-  <img class="tulio" loading="lazy"
-    src="https://storage.googleapis.com/front-agrodatai-dev/agrodatai/img/don-tulios/Pensativo.png" width="auto"
-    alt="" />
-  <ngx-skeleton-loader class="skeleton" count="1" appearance="line" animation="progress-dark" [theme]="{
-      'height.px': 35,
-
-      'background-color': '#9C4DAD'
-    }">
-  </ngx-skeleton-loader>
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1, maximum-scale=1"
+/>
+<div class="all" style="background: #572f75; height: auto">
+  <div class="banner">
+    <br />
+  </div>
+  <div class="load" style="background: #9c4dad">
+    <ngx-skeleton-loader
+      class="skeleton"
+      count="1"
+      appearance="line"
+      animation="progress-dark"
+      [theme]="{
+        'height.px': 35,
+        'background-color': '#9C4DAD'
+      }"
+    >
+    </ngx-skeleton-loader>
+  </div>
 </div>

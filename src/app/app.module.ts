@@ -10,10 +10,7 @@ import { FrontPageComponent } from './front-page/front-page.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { LoginComponent } from './login/login.component';
 import { FooterComponent } from './footer/footer.component';
-import { StartMarketComponent } from './start-market/start-market.component';
-import { SearchMarketComponent } from './search-market/search-market.component';
-import { SeeProductsComponent } from './see-products/see-products.component';
-import { InformationMarketComponent } from './information-market/information-market.component';
+
 import { NewsComponent } from './news/news.component';
 
 @NgModule({
@@ -25,10 +22,7 @@ import { NewsComponent } from './news/news.component';
     NavbarComponent,
     LoginComponent,
     FooterComponent,
-    StartMarketComponent,
-    SearchMarketComponent,
-    SeeProductsComponent,
-    InformationMarketComponent,
+
     NewsComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, NgxSkeletonLoaderModule],

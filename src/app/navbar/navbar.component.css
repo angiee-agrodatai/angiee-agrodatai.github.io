@@ -54,6 +54,7 @@
     .agrodat {
         width: 235px;
         height: 90px;
+        font-size: 20px;
     }
 
     .icon {
@@ -102,6 +103,7 @@
     .agrodat {
         width: 255px;
         height: 90px;
+        font-size: 25px;
     }
 
     .icon {
@@ -151,6 +153,7 @@
         padding: 15px;
         width: 335px;
         height: 150px;
+        font-size: 35px;
     }
 
     .icon {
@@ -199,6 +202,7 @@
         padding: 15px;
         width: 335px;
         height: 150px;
+        font-size: 35px;
     }
 
     .icon {
@@ -247,6 +251,7 @@
         padding: 15px;
         width: 435px;
         height: 200px;
+        font-size: 40px;
     }
 
     .icon {
@@ -297,5 +302,51 @@
         height: 0px;
 
 
+    }
+    .agrodat{
+        font-size: 45px;
+    }
+}
+@media only screen and (min-width: 1300px) {
+    .items {
+        width: auto;
+        background-size:auto;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: end;
+        align-items: center;
+
+    }
+
+    .item {
+        padding: 0px;
+        width:auto;
+        background-size: 1200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0.9;
+        padding: 10px;
+    }
+
+    .button {
+        width: 80px;
+        height: 50px;
+
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .icon {
+        width: 260;
+        height: 150px;
+        bottom: 10px;
+        width: 0px;
+        height: 0px;
+
+
+    }
+    .agrodat{
+        font-size: 45px;
     }
 }

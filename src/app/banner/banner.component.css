@@ -2,6 +2,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    width: auto;
+    height: 40px;
 
 }
 
@@ -11,6 +13,7 @@
     padding: 0%;
     margin: 0%;
     width: auto;
+    background-color: #ffffff; border: none;
 
 
 }
@@ -18,6 +21,8 @@
 .img {
     padding: 0%;
     margin: 0%;
+    width: auto;
+   
 }
 
 .all {
@@ -29,31 +34,34 @@
 
 .tulio {
     padding-left: 90px;
+    background-color: #ffffff; border: none;
+    width: auto;
 }
 
 
 @media only screen and (min-width: 400px) {
     .load {
-        width: 100%;
+        width:auto;
+        height: 40px;
         background-size: 400px;
 
     }
 
     .banner {
-        width: 100%;
+        width:auto;
         background-size: 400px;
 
     }
 
     .img {
-        width: 100%;
+        width: auto;
         background-size: 400px;
 
     }
 
     .tulio {
         height: 100px;
-        width: 100px;
+        width:auto;
         position: relative;
         right: 40px;
         top: 0px;
@@ -67,7 +75,7 @@
     .all {
         padding: 0%;
         margin: 0%;
-        width: 400px;
+        width: auto;
     }
 
 }
@@ -75,18 +83,18 @@
 /* Larger than phablet */
 @media only screen and (min-width: 550px) {
     .load {
-        max-width: 100%;
+        width:auto;
         background-size: 500px;
 
     }
 
     .banner {
-        max-width: 100%;
+        width:auto;
         background-size: 500px;
     }
 
     .img {
-        max-width: 100%;
+        width:auto;
         background-size: 500px;
 
     }
@@ -94,7 +102,7 @@
 
     .tulio {
         height: 120px;
-        width: 120px;
+        width: auto;
         position: relative;
         right: 40px;
         top: 0px;
@@ -108,32 +116,32 @@
     .all {
         padding: 0%;
         margin: 0%;
-        width: 550px;
+        width:auto;
     }
 }
 
 /* Larger than tablet */
 @media only screen and (min-width: 750px) {
     .load {
-        width: 750px;
+        width: auto;
         background-size: 700px;
 
     }
 
     .banner {
-        width: 750px;
+        width: auto;
         background-size: 700px;
     }
 
     .img {
-        width: 750px;
+        width: auto;
         background-size: 700px;
 
     }
 
     .tulio {
         height: 160px;
-        width: 160px;
+        width: auto;
         position: relative;
         right: 40px;
         top: 0px;
@@ -148,30 +156,30 @@
     .all {
         padding: 0%;
         margin: 0%;
-        width: 750px;
+        width: auto;
     }
 }
 
 /* Larger than desktop */
 @media only screen and (min-width: 900px) {
     .load {
-        width: 900px;
+        width: auto;
         background-size: 900px;
     }
 
     .banner {
-        width: 900px;
+        width: auto;
         background-size: 900px;
     }
 
     .img {
-        width: 900px;
+        width: auto;
         background-size: 900px;
     }
 
     .tulio {
-        height: 200px;
-        width: 200px;
+        width: auto;
+        
         position: relative;
         right: 40px;
         top: 0px;
@@ -185,24 +193,24 @@
     .all {
         padding: 0%;
         margin: 0%;
-        width: 900px;
+        width: auto;
     }
 }
 
 @media only screen and (min-width: 1000px) {
     .load {
-        width: 1000px;
+        width: auto;
         background-size: 1000px;
     }
 
     .banner {
-        width: 1000px;
+        width: auto;
         background-size: 1000px;
     }
 
     .tulio {
         height: 230px;
-        width: 230px;
+        width: auto;
         position: relative;
         right: 40px;
         top: 0px;
@@ -216,33 +224,33 @@
     .all {
         padding: 0%;
         margin: 0%;
-        width: 1000px;
+        width: auto;
     }
 }
 
 /* Larger than Desktop HD */
 @media only screen and (min-width: 1200px) {
     .load {
-        width: 1200px;
-        background-size: 1200px;
+        width: auto;
+        background-size: auto;
 
     }
 
     .banner {
-        width: 1200px;
-        background-size: 1200px;
+        width: auto;
+        background-size: auto;
 
     }
 
     .img {
-        width: 1200px;
-        background-size: 1200px;
+        width: auto;
+        background-size: auto;
 
     }
 
     .tulio {
         height: 300px;
-        width: 300px;
+        width: auto;
         position: relative;
         right: 40px;
         top: 0px;
@@ -256,6 +264,6 @@
     .all {
         padding: 0%;
         margin: 0%;
-        width: 1200px;
+        width: auto;
     }
 }
