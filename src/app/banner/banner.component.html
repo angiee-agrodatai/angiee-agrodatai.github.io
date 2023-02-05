@@ -1,0 +1,35 @@
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1, maximum-scale=1"
+/>
+<div class="all">
+  <div class="banner" style="background-color: #ffffff">
+    <ngx-skeleton-loader
+      class="img"
+      count="1"
+      appearance="line"
+      animation="progress-dark"
+      [theme]="{
+        'height.px': 45,
+        'background-color': '#FFFFFF'
+      }"
+    >
+    </ngx-skeleton-loader>
+    <div class="top" style="background-color: #ffffff; border: none">
+      <div class="tulio" style="border: none"></div>
+    </div>
+
+    <div class="load" style="background: #9c4dad">
+      <ngx-skeleton-loader
+        count="4"
+        appearance="circle"
+        animation="progress-dark"
+        [theme]="{
+          height: '25px',
+          width: '25px',
+          'background-color': '#572F75'
+        }"
+      ></ngx-skeleton-loader>
+    </div>
+  </div>
+</div>

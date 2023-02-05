@@ -1,0 +1,171 @@
+.all {
+  padding: 0%;
+  margin: 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 10px groove  #9C4DAD;
+  width: auto;
+  height: auto;}
+
+.tulio {
+  padding: 0%;
+  margin: 0%;
+  width: auto;
+  height: auto;
+ background-color: #572f75;
+
+}
+
+.skeleton {
+
+  padding: 0%;
+  margin: 0%;
+width: auto;
+display: flex;
+align-items: flex-end;
+
+}
+
+.banner{
+  height: auto;
+  background-color: #572f75;
+}
+
+
+
+@media only screen and (max-width: 300px) {
+
+
+  .banner{
+    height: 90px;
+  }
+
+  .all{
+    height:auto;
+    width: auto;  
+  }
+
+}
+
+@media only screen and (max-width: 400px) {
+
+
+  .banner{
+    height: 100px;
+  }
+
+  .all{
+    height:auto;
+    width: auto;  
+  }
+
+}
+
+@media only screen and (max-width: 550px) {
+  .banner{
+    height: 150px;
+  }
+
+  .all{
+    height:auto;
+    width: auto;  
+  }
+
+}
+
+@media only screen and (max-width: 750px) {
+  .banner{
+    height: 170px;
+  }
+
+  .all{
+    height:auto;
+    width: auto;  
+  }
+
+}
+
+
+@media only screen and (max-width: 900px) {
+  .banner{
+    height: 250px;
+  }
+
+  .all{
+    height:auto;
+    width: auto;  
+  }
+
+}
+
+@media only screen and (max-width: 1000px) {
+  .banner{
+    height: 280px;
+  }
+
+  .all{
+    height:auto;
+    width: auto;  
+  }
+
+}
+
+@media only screen and (max-width: 1200px) {
+  .banner{
+    height: 300px;
+  }
+
+  .all{
+    height:auto;
+    width: auto;  
+  }
+
+}
+
+@media only screen and (max-width: 1500px) {
+  .banner{
+    height: 300px;
+  }
+
+  .all{
+    height:auto;
+    width: auto;  
+  }
+
+}
+
+@media only screen and (max-width: 1800px) {
+  .banner{
+    height: 350px;
+  }
+
+  .all{
+    height:auto;
+    width: auto;  
+  }
+
+}
+
+@media only screen and (max-width: 2000px) {
+  .banner{
+    height: 360px;
+  }
+
+  .all{
+    height:auto;
+    width: auto;  
+  }
+
+}
+@media only screen and (min-width: 2001px) {
+  .banner{
+    height: 360px;
+  }
+
+  .all{
+    height:auto;
+    width: auto;  
+  }
+
+}

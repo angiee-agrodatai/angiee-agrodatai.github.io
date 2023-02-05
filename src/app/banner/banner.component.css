@@ -1,0 +1,269 @@
+.load {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 40px;
+
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    padding: 0%;
+    margin: 0%;
+    width: auto;
+    background-color: #ffffff; border: none;
+
+
+}
+
+.img {
+    padding: 0%;
+    margin: 0%;
+    width: auto;
+   
+}
+
+.all {
+    border: 3px solid #572F75;
+    padding: 0%;
+    margin: 0%;
+    width: auto;
+}
+
+.tulio {
+    padding-left: 90px;
+    background-color: #ffffff; border: none;
+    width: auto;
+}
+
+
+@media only screen and (min-width: 400px) {
+    .load {
+        width:auto;
+        height: 40px;
+        background-size: 400px;
+
+    }
+
+    .banner {
+        width:auto;
+        background-size: 400px;
+
+    }
+
+    .img {
+        width: auto;
+        background-size: 400px;
+
+    }
+
+    .tulio {
+        height: 100px;
+        width:auto;
+        position: relative;
+        right: 40px;
+        top: 0px;
+    }
+
+    .top {
+        height: 100px;
+        width: auto;
+    }
+
+    .all {
+        padding: 0%;
+        margin: 0%;
+        width: auto;
+    }
+
+}
+
+/* Larger than phablet */
+@media only screen and (min-width: 550px) {
+    .load {
+        width:auto;
+        background-size: 500px;
+
+    }
+
+    .banner {
+        width:auto;
+        background-size: 500px;
+    }
+
+    .img {
+        width:auto;
+        background-size: 500px;
+
+    }
+
+
+    .tulio {
+        height: 120px;
+        width: auto;
+        position: relative;
+        right: 40px;
+        top: 0px;
+    }
+
+    .top {
+        height: 120px;
+        width: auto;
+    }
+
+    .all {
+        padding: 0%;
+        margin: 0%;
+        width:auto;
+    }
+}
+
+/* Larger than tablet */
+@media only screen and (min-width: 750px) {
+    .load {
+        width: auto;
+        background-size: 700px;
+
+    }
+
+    .banner {
+        width: auto;
+        background-size: 700px;
+    }
+
+    .img {
+        width: auto;
+        background-size: 700px;
+
+    }
+
+    .tulio {
+        height: 160px;
+        width: auto;
+        position: relative;
+        right: 40px;
+        top: 0px;
+    }
+
+    .top {
+        height: 160px;
+        width: auto;
+    }
+
+
+    .all {
+        padding: 0%;
+        margin: 0%;
+        width: auto;
+    }
+}
+
+/* Larger than desktop */
+@media only screen and (min-width: 900px) {
+    .load {
+        width: auto;
+        background-size: 900px;
+    }
+
+    .banner {
+        width: auto;
+        background-size: 900px;
+    }
+
+    .img {
+        width: auto;
+        background-size: 900px;
+    }
+
+    .tulio {
+        width: auto;
+        
+        position: relative;
+        right: 40px;
+        top: 0px;
+    }
+
+    .top {
+        height: 200px;
+        width: auto;
+    }
+
+    .all {
+        padding: 0%;
+        margin: 0%;
+        width: auto;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .load {
+        width: auto;
+        background-size: 1000px;
+    }
+
+    .banner {
+        width: auto;
+        background-size: 1000px;
+    }
+
+    .tulio {
+        height: 230px;
+        width: auto;
+        position: relative;
+        right: 40px;
+        top: 0px;
+    }
+
+    .top {
+        height: 230px;
+        width: auto;
+    }
+
+    .all {
+        padding: 0%;
+        margin: 0%;
+        width: auto;
+    }
+}
+
+/* Larger than Desktop HD */
+@media only screen and (min-width: 1200px) {
+    .load {
+        width: auto;
+        background-size: auto;
+
+    }
+
+    .banner {
+        width: auto;
+        background-size: auto;
+
+    }
+
+    .img {
+        width: auto;
+        background-size: auto;
+
+    }
+
+    .tulio {
+        height: 300px;
+        width: auto;
+        position: relative;
+        right: 40px;
+        top: 0px;
+    }
+
+    .top {
+        height: 300px;
+        width: auto;
+    }
+
+    .all {
+        padding: 0%;
+        margin: 0%;
+        width: auto;
+    }
+}
